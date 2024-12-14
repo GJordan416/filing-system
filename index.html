@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Judicial Filing System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Judicial Filing System</h1>
+    <form id="filingForm">
+      <label for="caseName">Case Name:</label>
+      <input type="text" id="caseName" name="caseName" required>
+
+      <label for="caseNumber">Case Number:</label>
+      <input type="text" id="caseNumber" name="caseNumber" required>
+
+      <label for="file">Upload File:</label>
+      <input type="file" id="file" name="file" required>
+
+      <button type="submit">Submit</button>
+    </form>
+    <div id="message"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
